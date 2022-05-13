@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <div class="menu-container">
-      <SideBar class="menu" />
-    </div>
+    <!-- <div class="menu-container">
+      <SideBar />
+    </div> -->
 
     <router-view />
   </div>
 </template>
 
 <script lang="ts" setup>
-import SideBar from './views/SideBar/SideBar.vue'
+// import SideBar from './views/SideBar/SideBar.vue'
 </script>
 
 <style lang="less" scoped>
